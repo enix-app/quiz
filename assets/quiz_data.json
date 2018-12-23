@@ -1,0 +1,89 @@
+{
+  "soal_1": {
+    "tipe": "mj",
+    "body": "Pemain sepakbola yang pernah membela klub Real Madrid di antaranya....",
+    "opsi": {
+      "column": 2,
+      "items": {
+        "opsi_1": {
+          "body": "Cristiano Ronaldo",
+          "selected": false
+        },
+        "opsi_2": {
+          "body": "Santiago Solari",
+          "selected": false
+        },
+        "opsi_3": {
+          "body": "Luis Suarez",
+          "selected": false
+        }
+      }
+    }
+  },
+  "soal_2": {
+    "tipe": "pg",
+    "body": "Pemain sepakbola yang pernah membela klub Real Madrid adalah....",
+    "opsi": {
+      "items": {
+        "opsi_1": {
+          "body": "Cristiano Ronaldo",
+          "selected": false
+        },
+        "opsi_2": {
+          "body": "Gianluigi Buffon",
+          "selected": false
+        },
+        "opsi_3": {
+          "body": "Luis Suarez",
+          "selected": false
+        }
+      }
+    }
+  },
+  "soal_3": {
+    "tipe": "bs",
+    "body": "Pemain sepakbola *Cristiano Ronaldo* pernah membela <em>Manchester United</em>.",
+    "opsi": {
+      "column": 2
+    }
+  },
+  "soal_4": {
+    "tipe": "is",
+    "body": "Jumlah Trofi Liga Champions yang dimenangkan Real Madrid saat ini berjumlah....",
+    "jawab": ""
+  },
+  "soal_5": {
+    "tipe": "es",
+    "body": "Sebutkan 5 pemain yang membela Real Madrid pada musim 2018/2019.",
+    "jawab": ""
+  },
+  "soal_6": {
+    "tipe": "mj",
+    "body": "Mantan pemain sepakbola *Real Madrid* yang pernah bermain di Juventus di antaranya....",
+    "opsi": {
+      "column": 2,
+      "items": {
+        "opsi_1": {
+          "body": "![alt](/quiz/images/realmadrid/07-Ronaldo.jpg)",
+          "selected": false
+        },
+        "opsi_2": {
+          "body": "![alt](/quiz/images/realmadrid/08-Kroos.jpg)",
+          "selected": false
+        },
+        "opsi_3": {
+          "body": "![alt](/quiz/images/realmadrid/06-Khedira.jpg)",
+          "selected": false
+        },
+        "opsi_4": {
+          "body": "![alt](/quiz/images/realmadrid/01-Casillas.jpg)",
+          "selected": false
+        },
+        "opsi_5": {
+          "body": "![alt](/quiz/images/realmadrid/04-Sergio_Ramos.jpg)",
+          "selected": false
+        }
+      }
+    }
+  }
+}

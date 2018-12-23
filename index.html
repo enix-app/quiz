@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>EnixApp | Quiz</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/quiz/assets/vendor/bootswatch/default/bootstrap.min.css">
+    <link rel="stylesheet" href="/quiz/assets/vendor/animate.css/animate.min.css">
+
+    <link href="/quiz/app/quiz-231218.css" rel="preload" as="style">
+    <link href="/quiz/app/quiz-231218.js" rel="preload" as="script">
+    <link href="/quiz/app/quiz-231218.css" rel="stylesheet">
+  </head>
+  <body>
+    <script>
+    window.EnixApp = {
+      quiz: {
+        baseUri: "/quiz/",
+        source: "/assets/quiz_data.json",
+        duration: 5, // seconds
+        interval: 60, // seconds
+        onInterval: function(data) {
+          // kirim data server setiap 30 detik
+          // console.info('Menyimpan data ke server.', new Date())
+        },
+        onFinish: function(data) {
+          // console.warn('Waktu habis!', new Date())
+        }
+      }
+    }
+    </script>
+    <!--script type="text/x-template" id="home-tpl"></script!-->
+    <div id="EnixApp-quiz"></div>
+    <script src="/quiz/assets/vendor-all.js"></script>
+    <script src="/quiz/app/quiz-231218.js"></script>
+  </body>
+</html>
