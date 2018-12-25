@@ -9,7 +9,7 @@ Cuma template javascript yang dibangun menggunakan [VueJS](https://vuejs.org) da
 5. [Bootstrap-Vue](https://bootstrap-vue.org)
 6. [Bootswatch Theme](https://bootswatch.com) (alternatif Bootstrap tema)
 7. [Lodash](https://lodash.org)
-8. De el el
+8. Dan lainnya.
 
 Tipe soal yang didukung:
 
@@ -18,6 +18,34 @@ Tipe soal yang didukung:
 3. Benar/Salah (BS).
 4. Isian (IS) untuk jawaban singkat.
 5. Esai (ES) untuk jawaban terperinci.
+
+## Penggunaan?
+
+Cuma tautkan file-file assetnya di html dan tambahkan pengaturan seperti di bawah ini:
+
+```html
+<html>
+  <head>
+    <!-- .... -->
+    <link href="/quiz/app/quiz.css" rel="stylesheet">
+  </head>
+  <body>
+    <script>
+      window.EnixApp = {
+        quiz: {
+          // ....
+        }
+      }
+    </script>
+
+    <div id="EnixApp-quiz"></div>
+
+    <script src="/quiz/assets/vendor-all.js"></script>
+    <script src="/quiz/app/quiz.js"></script>
+  </body>
+</html>
+```
+
 
 ## Skema JSON
 
@@ -54,12 +82,17 @@ Contoh skema bisa dilihat di direktori **assets**.
         },
         "opsi_3": {
           "body": "Luis Suarez"
+        },
+        "opsi_<n>": {
+          "body": "..."
         }
       }
     }
   }
 }
 ```
+
+Untuk opsi_<n> **wajib** berurutan.
 
 Minimal opsi jawaban untuk tipe soal Pilihan Ganda (PG) adalah 3 (tiga).
 
@@ -88,6 +121,8 @@ Minimal opsi jawaban untuk tipe soal Pilihan Ganda (PG) adalah 3 (tiga).
 }
 ```
 
+Untuk opsi_<n> **wajib** berurutan.
+
 Minimal opsi jawaban untuk tipe soal Multi Jawaban (MJ) adalah 3 (tiga).
 
 ### Contoh untuk soal Benar/Salah (BS): 
@@ -101,8 +136,6 @@ Minimal opsi jawaban untuk tipe soal Multi Jawaban (MJ) adalah 3 (tiga).
   }
 }
 ```
-
-Minimal opsi jawaban untuk tipe soal Benar/Salah (BS) adalah 2 (dua).
 
 ### Contoh untuk soal Isian (IS) dan Esai (ES): 
 
@@ -160,6 +193,14 @@ contoh URL untuk pengaturan di atas:
 ```
 http://example.com/quiz
 ```
+
+## Demo
+
+[enix-app.github.io/quiz](https://enix-app.github.io/quiz)
+
+## Source
+
+Download aja source code di branch *gh-pages* ini.
 
 ## TODO
 
