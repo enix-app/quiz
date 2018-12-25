@@ -62,7 +62,7 @@ Penomoran di atas **wajib** berurutan.
 
 ## Contoh skema dengan Opsi Pilihan
 
-Contoh skema bisa dilihat di direktori **assets**.
+Contoh skema bisa dilihat di direktori [**assets**](https://github.com/enix-app/quiz/blob/gh-pages/assets/quiz_data.json).
 
 ### Contoh untuk soal Pilihan Ganda (PG):
 
