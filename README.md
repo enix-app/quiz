@@ -1,5 +1,7 @@
 # EnixApp - Quiz
 
+*APLIKASI TIDAK DIKEMBANGKAN LAGI*
+
 Cuma template javascript yang dibangun menggunakan [VueJS](https://vuejs.org) dan framework/library lainnya:
 
 1. [AlaSQL](https://alasql.org) (local storage database)
@@ -204,6 +206,6 @@ Download aja source code di branch *gh-pages* ini.
 
 ## TODO
 
-1. Tampilan log aktivitas.
-2. Tabel data.
-3. Konfigurasi waktu mulai dengan format *00:00:00*.
+1. ~Tampilan log aktivitas.~
+2. ~Tabel data.~
+3. ~Konfigurasi waktu mulai dengan format *00:00:00*.~
